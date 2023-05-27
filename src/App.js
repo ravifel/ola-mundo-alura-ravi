@@ -1,11 +1,13 @@
 import SobreMim from "./paginas/SobreMim";
 import Inicio from "./paginas/Inicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Menu from "./componentes/Menu";
 
 
 function App() {
   return (
     <BrowserRouter>
+      <Menu />
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/sobre-mim" element={<SobreMim />} />
@@ -34,3 +36,5 @@ export default App;
 
 //Página NOT FOUND --> path="*"
 //A rora que tem o "*", é selecionada quando nenhuma das outras rotas deu certo na url
+
+//Inserção do componente de 'Menu' fora das rotas, pois ele sempre deverá aparecer independente das rotas.
