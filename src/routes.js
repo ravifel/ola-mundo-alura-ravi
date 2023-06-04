@@ -3,16 +3,22 @@ import Inicio from "./paginas/Inicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./componentes/Menu";
 import Rodape from "componentes/Rodape";
+import PaginaPadrao from "componentes/PaginaPadrao";
 
 
 function AppRoutes() {
   return (
     <BrowserRouter>
       <Menu />
+
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/sobre-mim" element={<SobreMim />} />
+        <Route path="/" element={<PaginaPadrao />}>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/sobre-mim" element={<SobreMim />} />
+        </Route>
+
         <Route path="*" element={<div>Página não encontrada</div>} />
+
       </Routes>
       <Rodape />
     </BrowserRouter>
@@ -40,3 +46,20 @@ export default AppRoutes;
 //A rora que tem o "*", é selecionada quando nenhuma das outras rotas deu certo na url
 
 //Inserção do componente de 'Menu' fora das rotas, pois ele sempre deverá aparecer independente das rotas.
+
+//--------------------
+
+//Recurso de ROTAS ANINHADAS do 'react-router-dom'.
+// é quando uma rota passa a possuir rotas filhas.
+// as rotas "Inicio" e "SobreMim", passaram a se tornar filhas da rota "PaginaPadrão"
+// é indicada na rota "pai", onde serão colocadas as rotas que forem renderizadas.
+
+//Na rota "/", a estrutura a ser renderizada é:
+//<PaginaPadrao>
+// <Inicio/>
+//</PaginaPadrao>
+
+//Na rota "/sobre-mim", a estrutura a ser renderizada é:
+//<PaginaPadrao>
+// <SobreMim/>
+//</PaginaPadrao>
