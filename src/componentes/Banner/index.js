@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Banner.module.css'
-import circuloColorido from '../../assets/circulo_colorido.png'
-import imagemRavi from '../../assets/foto-ravi.png'
+import circuloColorido from '../../assets/imagens/circulo_colorido.png'
+import imagemRavi from '../../assets/imagens/foto-ravi.png'
 
 export default function Banner() {
     return (
