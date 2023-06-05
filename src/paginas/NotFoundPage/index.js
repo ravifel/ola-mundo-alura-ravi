@@ -2,8 +2,10 @@ import React from 'react'
 import styles from './NotFoundPage.module.css'
 import imagemErro404 from 'assets/imagens/erro_404.png'
 import BotaoPrincipal from 'componentes/BotaoPrincipal'
+import { useNavigate } from 'react-router-dom'
 
 export default function NotFoundPage() {
+    const navegar = useNavigate();
     return (
         <>
             <div className={styles.conteudoContainer}>
@@ -15,8 +17,12 @@ export default function NotFoundPage() {
                 <p className={styles.paragrafo}>
                     Aguarde alguns instantes e recarregue a página, ou volte para a página inicial.
                 </p>
-                <div className={styles.botaoContainer}>
-                    <BotaoPrincipal tamanhoBotao="lg">Voltar</BotaoPrincipal>
+                <div
+                    className={styles.botaoContainer}
+                    onClick={() => navegar(-1)}>
+                    <BotaoPrincipal tamanhoBotao="lg">
+                        Voltar
+                    </BotaoPrincipal>
                 </div>
                 <img
                     className={styles.imagemCachorro}
@@ -28,3 +34,8 @@ export default function NotFoundPage() {
         </>
     )
 }
+
+
+
+//onClick={() => navegar("/")}> volta para a página de rota "/"
+//onClick={() => navegar(-1)}> volta para a página anterior
