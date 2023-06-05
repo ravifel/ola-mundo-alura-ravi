@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './NotFoundPage.module.css'
 import imagemErro404 from 'assets/imagens/erro_404.png'
+import BotaoPrincipal from 'componentes/BotaoPrincipal'
 
 export default function NotFoundPage() {
     return (
@@ -15,7 +16,7 @@ export default function NotFoundPage() {
                     Aguarde alguns instantes e recarregue a página, ou volte para a página inicial.
                 </p>
                 <div className={styles.botaoContainer}>
-                    <button>Voltar</button>
+                    <BotaoPrincipal>Voltar</BotaoPrincipal>
                 </div>
                 <img
                     className={styles.imagemCachorro}
