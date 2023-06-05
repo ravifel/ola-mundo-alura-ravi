@@ -16,7 +16,7 @@ export default function NotFoundPage() {
                     Aguarde alguns instantes e recarregue a página, ou volte para a página inicial.
                 </p>
                 <div className={styles.botaoContainer}>
-                    <BotaoPrincipal>Voltar</BotaoPrincipal>
+                    <BotaoPrincipal tamanhoBotao="lg">Voltar</BotaoPrincipal>
                 </div>
                 <img
                     className={styles.imagemCachorro}
