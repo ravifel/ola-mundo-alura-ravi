@@ -5,13 +5,12 @@
 }
 
 :root {
-  --azul-escuro: #041833;
-  --azul-medio: #1875E8;
+  --roxo-escuro: #1c0a1c;
+  --roxo-medio: #ab3051;
+  --roxo-claro: #e591a7;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
-  --verde-escuro: #06270c;
-  --verde-medio: #2b6936;
   --fonte-principal: 'Raleway', sans-serif;
   --fonte-secundaria: 'Playfair Display', sans-serif;
 
