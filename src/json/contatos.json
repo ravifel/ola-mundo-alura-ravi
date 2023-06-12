@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Linkedin",
+        "link": "https://www.linkedin.com/in/ravifel/"
+    },
+    {
+        "id": 2,
+        "titulo": "Github",
+        "link": "https://github.com/ravifel"
+    },
+    {
+        "id": 3,
+        "titulo": "Curriculo",
+        "link": "https://ravifel.github.io/Curriculo%20Ravi.pdf"
+    }
+]

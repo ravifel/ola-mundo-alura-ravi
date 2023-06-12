@@ -8,6 +8,8 @@ export default function Menu() {
             <nav className={styles.navegacao}>
                 <MenuLink titulo="Inicio" pathName="/" />
                 <MenuLink titulo="Sobre Mim" pathName="/sobre-mim" />
+                <MenuLink titulo="Contato" pathName="/contato" />
+                <MenuLink titulo="Repositorios" pathName="/repositorios" />
             </nav>
         </header>
     )

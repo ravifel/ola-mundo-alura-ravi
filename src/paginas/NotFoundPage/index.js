@@ -10,7 +10,7 @@ export default function NotFoundPage() {
         <>
             <div className={styles.conteudoContainer}>
                 <span className={styles.texto404}>404</span>
-                <h1>Ops! Página não encontrada.</h1>
+                <h1>Página não encontrada.</h1>
                 <p className={styles.paragrafo}>
                     Tem certeza de que era isso que você estava procurando?
                 </p>
@@ -25,7 +25,7 @@ export default function NotFoundPage() {
                     </BotaoPrincipal>
                 </div>
                 <img
-                    className={styles.imagemCachorro}
+                    className={styles.imagemBadEmoji}
                     src={imagemErro404}
                     alt='Cachorro de Óculos'
                 />

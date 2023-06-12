@@ -6,6 +6,8 @@ import Rodape from "componentes/Rodape";
 import PaginaPadrao from "componentes/PaginaPadrao";
 import Post from "paginas/Post";
 import NotFoundPage from "paginas/NotFoundPage";
+import Contato from "paginas/Contato";
+import Repositorios from "paginas/Repositorios";
 
 
 function AppRoutes() {
@@ -19,6 +21,8 @@ function AppRoutes() {
           <Route path="sobre-mim" element={<SobreMim />} />
         </Route>
         <Route path="posts/:id" element={<Post />} />
+        <Route path="contato" element={<Contato />} />
+        <Route path="repositorios" element={<Repositorios />} />
         <Route path="*" element={<NotFoundPage />} />
 
       </Routes>

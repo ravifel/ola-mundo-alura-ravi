@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Banner.module.css'
-import circuloColorido from '../../assets/imagens/circulo_colorido.png'
+import circuloColorido from '../../assets/imagens/imagem-fundo-banner.png'
 import imagemRavi from '../../assets/imagens/foto-ravi.png'
 
 export default function Banner() {

@@ -9,7 +9,8 @@
 .texto404 {
     display: block;
     color: var(--roxo-medio);
-    font-family: var(--fonte-secundaria);
+    /* font-family: var(--fonte-secundaria); */
+    font-family: monospace;
     font-size: 6rem;
     font-weight: 700;
     margin-bottom: 2rem;
@@ -32,7 +33,7 @@
     margin-left: 30vw;
 }
 
-.imagemCachorro {
+.imagemBadEmoji {
     position: absolute;
     height: 25vw;
     bottom: calc(-25vw * 0.5);
