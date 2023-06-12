@@ -1,5 +1,5 @@
 .rodape {
-    background-color: var(--roxo-escuro);
+    background-color: var(--cor-principal-escuro);
     color: var(--branco);
     padding: 2rem 0;
     display: flex;

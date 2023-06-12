@@ -18,7 +18,7 @@
 }
 
 .botaoPrincipal:hover {
-    border: 3px solid var(--roxo-escuro);
+    border: 3px solid var(--cor-principal-escuro);
 }
 
 @media (max-width: 1100px) {
