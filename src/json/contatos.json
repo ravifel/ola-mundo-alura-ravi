@@ -2,16 +2,22 @@
     {
         "id": 1,
         "titulo": "Linkedin",
-        "link": "https://www.linkedin.com/in/ravifel/"
+        "link": "https://www.linkedin.com/in/ravifel/",
+        "pathAssetsImage": "contatos",
+        "target": "blank"
     },
     {
         "id": 2,
         "titulo": "Github",
-        "link": "https://github.com/ravifel"
+        "link": "https://github.com/ravifel",
+        "pathAssetsImage": "contatos",
+        "target": "blank"
     },
     {
         "id": 3,
         "titulo": "Curriculo",
-        "link": "https://ravifel.github.io/Curriculo%20Ravi.pdf"
+        "link": "https://ravifel.github.io/Curriculo%20Ravi.pdf",
+        "pathAssetsImage": "contatos",
+        "target": "blank"
     }
 ]

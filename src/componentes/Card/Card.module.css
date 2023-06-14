@@ -1,4 +1,4 @@
-.post {
+.card {
     text-align: center;
     width: 282px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
@@ -7,7 +7,7 @@
     transition: transform .2s;
 }
 
-.post:hover {
+.card:hover {
     transform: translate(0, -1rem);
 }
 
@@ -25,7 +25,7 @@
 
 
 @media (max-width: 1100px) {
-    .post {
+    .card {
         width: 336px;
     }
 

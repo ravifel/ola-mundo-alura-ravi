@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Contato.module.css"
 import contatos from '../../json/contatos.json'
-import ContatoCard from 'componentes/ContatoCard'
+import Card from 'componentes/Card'
 
 export default function Contato() {
     return (
@@ -9,7 +9,7 @@ export default function Contato() {
             <ul className={styles.contatos}>
                 {contatos.map((contato) => (
                     <li key={contato.id}>
-                        <ContatoCard contato={contato} />
+                        <Card item={contato} />
                     </li>
                 ))}
             </ul>
