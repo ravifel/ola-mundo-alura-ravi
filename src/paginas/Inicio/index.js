@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from './Inicio.module.css'
+import styles from 'componentes/Card/PageCard.module.css'
 import posts from '../../json/posts.json'
 import Card from 'componentes/Card'
 
 export default function Inicio() {
     return (
-        <ul className={styles.posts}>
+        <ul className={styles.itens}>
             {posts.map((post) => (
                 <li key={post.id}>
                     <Card item={post} />

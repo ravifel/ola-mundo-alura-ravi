@@ -2,6 +2,7 @@
     {
         "id": 1,
         "titulo": "Linkedin",
+        "descricao": "",
         "link": "https://www.linkedin.com/in/ravifel/",
         "pathAssetsImage": "contatos",
         "target": "blank"
@@ -9,6 +10,7 @@
     {
         "id": 2,
         "titulo": "Github",
+        "descricao": "",
         "link": "https://github.com/ravifel",
         "pathAssetsImage": "contatos",
         "target": "blank"
@@ -16,6 +18,7 @@
     {
         "id": 3,
         "titulo": "Curriculo",
+        "descricao": "",
         "link": "https://ravifel.github.io/Curriculo%20Ravi.pdf",
         "pathAssetsImage": "contatos",
         "target": "blank"
