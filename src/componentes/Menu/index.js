@@ -10,6 +10,7 @@ export default function Menu() {
                 <MenuLink titulo="Sobre Mim" pathName="/sobre-mim" />
                 <MenuLink titulo="Contato" pathName="/contato" />
                 <MenuLink titulo="Repositorios" pathName="/repositorios" />
+                <MenuLink titulo="Conhecimentos" pathName="/conhecimentos" />
             </nav>
         </header>
     )

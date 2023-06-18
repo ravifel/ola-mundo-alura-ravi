@@ -8,6 +8,7 @@ import Post from "paginas/Post";
 import NotFoundPage from "paginas/NotFoundPage";
 import Contato from "paginas/Contato";
 import Repositorios from "paginas/Repositorios";
+import Conhecimentos from "paginas/Conhecimentos";
 
 
 function AppRoutes() {
@@ -23,6 +24,7 @@ function AppRoutes() {
         <Route path="posts/:id" element={<Post />} />
         <Route path="contato" element={<Contato />} />
         <Route path="repositorios" element={<Repositorios />} />
+        <Route path="conhecimentos" element={<Conhecimentos />} />
         <Route path="*" element={<NotFoundPage />} />
 
       </Routes>

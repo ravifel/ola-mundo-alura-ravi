@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "titulo": "React",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 2,
+        "titulo": "Angular",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 3,
+        "titulo": "JavaScript",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 4,
+        "titulo": "TypeScript",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 5,
+        "titulo": "HTML",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 6,
+        "titulo": "CSS",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 7,
+        "titulo": "Git",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 8,
+        "titulo": "GitHub",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 9,
+        "titulo": "SQL",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 10,
+        "titulo": "Agile Explore",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 11,
+        "titulo": "Jira",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 12,
+        "titulo": "BootStrap",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 13,
+        "titulo": "Angular Materia",
+        "pathAssetsImage": "conhecimentos"
+    },
+    {
+        "id": 14,
+        "titulo": "Material Ui",
+        "pathAssetsImage": "conhecimentos"
+    }
+]

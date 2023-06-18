@@ -13,6 +13,7 @@ export default function Card({ item }) {
                     alt='Imagem de Capa do Card'
                 />
                 <h2 className={styles.titulo}>{item.titulo}</h2>
+                <p>{item.descricao}</p>
                 <BotaoPrincipal>Ler</BotaoPrincipal>
             </div>
         </Link>
