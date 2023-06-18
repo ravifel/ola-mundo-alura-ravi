@@ -11,7 +11,7 @@
     {
         "id": 2,
         "titulo": "Alura Space",
-        "descricao": "Descrição do site",
+        "descricao": "Projeto desenvolvido no curso de 'React com JavaScript: Lidando com arquivos estáticos' na plataforma Alura",
         "link": "https://github.com/ravifel/alura-space-ravi",
         "link-hospedagem": "www.rsasdes.com.br",
         "pathAssetsImage": "repositorios",
@@ -20,8 +20,71 @@
     {
         "id": 3,
         "titulo": "Organograma Dev",
-        "descricao": "",
+        "descricao": "Projeto desenvolvido no curso 'React com JavaScript'",
         "link": "https://github.com/ravifel/organograma-dev",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 4,
+        "titulo": "Buscador CEP",
+        "descricao": "Buscador de CEP usando React",
+        "link": "https://github.com/ravifel/buscador-cep-react",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 5,
+        "titulo": "Catálogo de Produtos",
+        "descricao": "Catalogo de produtos usando React-JS",
+        "link": "https://github.com/ravifel/catalogo-produtos-react",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 6,
+        "titulo": "Pokedex",
+        "descricao": "About Projeto para pesquisa de Pokémons. Usando a Api 'https://pokeapi.co/' para trabalhar com os Pokémons.",
+        "link": "https://github.com/ravifel/pokedex-react-js",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 7,
+        "titulo": "To do List",
+        "descricao": "To do List desenvolvida com React-JS",
+        "link": "https://github.com/ravifel/todo-list-react",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 8,
+        "titulo": "Crud Angular 9",
+        "descricao": "Projeto desenvolvido durante o curso de 'Angular 9 Essencial', pela plataforma Cod3r",
+        "link": "https://github.com/ravifel/curso-angular9-cod3r",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 9,
+        "titulo": "Adoção de Pets - Angular",
+        "descricao": "Este projeto é um site para facilitar a adoção de Pets, onde o usuário pode acessar e ver quais Pets estão disponíveis para a adoção.",
+        "link": "https://github.com/ravifel/projeto-pets",
+        "link-hospedagem": "",
+        "pathAssetsImage": "repositorios",
+        "target": "blank"
+    },
+    {
+        "id": 10,
+        "titulo": "Projeto Filmes - Angular",
+        "descricao": "Neste projeto o usuário irá poder buscar o filme que desejar e ter algumas informações sobre ele.",
+        "link": "https://github.com/ravifel/projeto-filmes",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
         "target": "blank"
