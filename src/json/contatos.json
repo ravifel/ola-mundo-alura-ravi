@@ -5,7 +5,8 @@
         "descricao": "",
         "link": "https://www.linkedin.com/in/ravifel/",
         "pathAssetsImage": "contatos",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Acessar"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "descricao": "",
         "link": "https://github.com/ravifel",
         "pathAssetsImage": "contatos",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Acessar"
     },
     {
         "id": 3,
@@ -21,6 +23,7 @@
         "descricao": "",
         "link": "https://ravifel.github.io/Curriculo%20Ravi.pdf",
         "pathAssetsImage": "contatos",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Acessar"
     }
 ]

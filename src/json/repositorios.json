@@ -2,74 +2,82 @@
     {
         "id": 1,
         "titulo": "Portfólio Ravi",
-        "descricao": "",
+        "descricao": "Site Pessoal desenvolvido com React",
         "link": "https://github.com/ravifel/ola-mundo-alura-ravi",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 2,
         "titulo": "Alura Space",
-        "descricao": "Projeto desenvolvido no curso de 'React com JavaScript: Lidando com arquivos estáticos' na plataforma Alura",
+        "descricao": "Projeto de galeria com fotos do espaço, desenvolvido no curso de 'React com JavaScript: Lidando com arquivos estáticos' na plataforma Alura",
         "link": "https://github.com/ravifel/alura-space-ravi",
         "link-hospedagem": "www.rsasdes.com.br",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 3,
         "titulo": "Organograma Dev",
-        "descricao": "Projeto desenvolvido no curso 'React com JavaScript'",
+        "descricao": "Projeto para organizar membros de um time em seus devidos agrupamentos, desenvolvido no curso 'React com JavaScript'",
         "link": "https://github.com/ravifel/organograma-dev",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 4,
         "titulo": "Buscador CEP",
-        "descricao": "Buscador de CEP usando React",
+        "descricao": "Projetos buscador de CEP usando React",
         "link": "https://github.com/ravifel/buscador-cep-react",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 5,
         "titulo": "Catálogo de Produtos",
-        "descricao": "Catalogo de produtos usando React-JS",
+        "descricao": "Catalogo de produtos, desenvolvido com React-JS",
         "link": "https://github.com/ravifel/catalogo-produtos-react",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 6,
         "titulo": "Pokedex",
-        "descricao": "About Projeto para pesquisa de Pokémons. Usando a Api 'https://pokeapi.co/' para trabalhar com os Pokémons.",
+        "descricao": "Projeto para pesquisa de Pokémons. Consumindo a Api 'pokeapi' para apresentar os Pokémons.",
         "link": "https://github.com/ravifel/pokedex-react-js",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 7,
         "titulo": "To do List",
-        "descricao": "To do List desenvolvida com React-JS",
+        "descricao": "Projeto 'To do List', desenvolvido com React-JS",
         "link": "https://github.com/ravifel/todo-list-react",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 8,
         "titulo": "Crud Angular 9",
-        "descricao": "Projeto desenvolvido durante o curso de 'Angular 9 Essencial', pela plataforma Cod3r",
+        "descricao": "Projeto de Crud de produtos, desenvolvido durante o curso de 'Angular 9 Essencial', pela plataforma Cod3r",
         "link": "https://github.com/ravifel/curso-angular9-cod3r",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "link": "https://github.com/ravifel/projeto-pets",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     },
     {
         "id": 10,
@@ -87,6 +96,7 @@
         "link": "https://github.com/ravifel/projeto-filmes",
         "link-hospedagem": "",
         "pathAssetsImage": "repositorios",
-        "target": "blank"
+        "target": "blank",
+        "botao": "Ver Mais"
     }
 ]
