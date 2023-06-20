@@ -1,5 +1,4 @@
 import React from 'react'
-import fotoCapa from 'assets/imagens/sobre_mim_capa.png'
 import imagemRavi from 'assets/imagens/foto-ravi.png'
 import styles from './SobreMim.module.css'
 
@@ -8,10 +7,6 @@ export default function SobreMim() {
     return (
 
         <article className={styles.postModeloContainer}>
-            <div
-                className={styles.fotoCapa}
-                style={{ backgroundImage: `url(${fotoCapa})` }}
-            ></div>
 
             <h2 className={styles.titulo}>Sobre Mim</h2>
 

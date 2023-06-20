@@ -24,6 +24,8 @@
     font-size: 4rem;
     display: flex;
     align-items: center;
+    background-color: #00002c;
+    color: white;
 }
 
 .postConteudoContainer {

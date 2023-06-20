@@ -1,9 +1,9 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import PostModelo from 'componentes/PostModelo'
 import styles from "./RepositorioDetalhes.module.css"
-import fotoCapa from 'assets/imagens/sobre_mim_capa.png'
 import repositorios from 'json/repositorios.json'
+import BotaoPrincipal from 'componentes/BotaoPrincipal'
+import { Link } from 'react-router-dom'
 
 export default function RepositorioDetalhes() {
     const parametros = useParams()
@@ -19,28 +19,26 @@ export default function RepositorioDetalhes() {
     )
 
     return (
-        <div>
-            <PostModelo
-                fotoCapa={fotoCapa}
-                titulo={repositorio.titulo}
 
+        <div className={styles.card}>
 
-            >
-                <h3 className={styles.subtitulo}>
-                    Olá, Seja bem vindo ao <strong>{repositorio.titulo}</strong>
-                </h3>
+            <div>
+                <h2 className={styles.titulo}>{repositorio.titulo}</h2>
+            </div>
 
-                <img
-                    className={styles.fotoSobreMim}
-                    src={`/assets/${repositorio.pathAssetsImage}/${repositorio.id}/capa.png`}
-                    alt="Foto Perfil Ravi"
-                />
+            <img
+                className={styles.capa}
+                src={`/assets/${repositorio.pathAssetsImage}/${repositorio.id}/capa.png`}
+                alt='Imagem de Capa do Card'
+            />
 
-                <p>
-                    {repositorio.descricao}
-                </p>
+            <p className={styles.descricao} >{repositorio.descricao}</p>
 
-            </PostModelo>
+            <Link to={repositorio.linkRepositorio} target='_blank'>
+                <BotaoPrincipal link={repositorio.linkRepositorio}>
+                    Acessar Repositório GitHub
+                </BotaoPrincipal>
+            </Link>
         </div>
     )
 }
