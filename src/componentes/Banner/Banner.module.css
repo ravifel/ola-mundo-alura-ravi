@@ -7,17 +7,19 @@
 }
 
 .titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 2rem;
-    margin-top: 4.875rem;
+    /* font-family: var(--fonte-secundaria); */
+    font-size: 5rem;
+    margin-top: 9.875rem;
     margin-bottom: 2rem;
+    text-align-last: center;
 }
 
 .paragrafo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    /* font-family: var(--fonte-secundaria); */
+    font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 2rem;
+    text-align-last: center;
 }
 
 .imagens {

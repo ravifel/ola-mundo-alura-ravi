@@ -7,12 +7,22 @@ export default function Banner() {
     return (
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
-                <h1 className={styles.titulo}>Olá, seja bem-vindo!</h1>
+
+                {/* <h1 className={styles.titulo}>Olá, seja bem-vindo!</h1>
+
                 <p className={styles.paragrafo}>
                     Eu sou o Ravi Silva,<br />
                     estudante de Análise e Desenvolvimento de Sistemas.
                     Aqui eu compartilho sobre os meus conhecimentos, espero que goste!
+                </p> */}
+
+
+                <h1 className={styles.titulo}>Ravi Silva</h1>
+
+                <p className={styles.paragrafo}>
+                    Analista de Qualidade Trainee
                 </p>
+
             </div>
 
             <div className={styles.imagens}>
